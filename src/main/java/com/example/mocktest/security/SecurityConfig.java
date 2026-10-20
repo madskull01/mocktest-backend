@@ -83,7 +83,8 @@ public class SecurityConfig {
                                 "/uploads/question-images/**",
                                 "/v3/api-docs/**",
                                 "/swagger-ui/**",
-                                "/swagger-ui.html"
+                                "/swagger-ui.html",
+                                "/favicon.ico"
                         ).permitAll()
                         .requestMatchers(
                                 HttpMethod.GET,
