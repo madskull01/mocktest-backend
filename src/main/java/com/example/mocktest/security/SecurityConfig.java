@@ -26,7 +26,7 @@ public class SecurityConfig {
 
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
 
-    @Value("${app.cors.allowed-origins:http://cdacmocktest.com}")
+    @Value("${app.cors.allowed-origins:http://localhost:5173,http://127.0.0.1:5190,https://cdacmocktest.com,https://www.cdacmocktest.com,https://profound-dolphin-979043.netlify.app}")
     private String allowedOrigins;
 
     @Bean
